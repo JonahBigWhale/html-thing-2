@@ -1,0 +1,146 @@
+html, body{
+    margin: auto;
+    height: 100%;
+}
+ 
+
+.page_container{
+    width: 1900px;
+    
+    background-color:whitesmoke; 
+    margin: auto;
+    
+}
+
+
+header {
+
+    background-color: rgb(100, 155, 238);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}   
+
+
+nav {
+
+    
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  
+    
+}
+
+
+li {
+    float: left;
+    list-style-type: none;
+    margin: 25px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid black;
+    
+    
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    color: darkblue;
+    text-decoration: none;
+    background-color:whitesmoke;
+  }
+
+
+
+
+  .welcome{
+    display: flex;
+    margin: 5px;
+}
+
+.message {
+    background-color: whitesmoke;
+    font-size: 22px;
+    padding: 0px;
+    text-align:center;
+    
+
+}
+
+
+
+
+
+  .navbar {
+    width: 1700;
+    background-color: #90D5FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .hero {
+    height: 100vh;
+    background:      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image.png") no-repeat center/cover;
+     
+    display: flex;
+    justify-content: center;
+    
+    color: white;
+    text-align: center;
+  }
+  
+  .caption h1 {
+    font-size: 150px;   
+    padding-top: 250px;
+    display: flex;
+    color: #90D5FF;
+    
+  }
+  
+  .caption p {
+    font-size: 50px; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: #FFFFE0;
+    
+  } 
+
+
+.message h2 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  font-style: italic;
+}
+
+  *{
+    margin:0;
+    padding:0;
+    font-family:verdana;
+  }
+
+
+  .clubhistory{
+    display: flex;
+    padding-top: 30px;
+    background-color: whitesmoke;
+}
+
+.historytext{
+    background-color: white;
+    font-size: 30px;
+    padding: 10px;
+    text-align:center;
+    background-color: whitesmoke;
+    margin: 50px;
+
+}
+

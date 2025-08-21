@@ -1,0 +1,143 @@
+html, body{
+    margin: auto;
+    height: 100%;
+}
+ 
+
+.page_container{
+    width: 1900px;
+    
+    background-color:whitesmoke; 
+    margin: auto;
+    
+    
+}
+
+
+header {
+
+    background-color: rgb(100, 155, 238);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}   
+
+
+nav {
+
+    
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  
+    
+}
+
+
+li {
+    float: left;
+    list-style-type: none;
+    margin: 25px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid black;
+    
+    
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    color: darkblue;
+    text-decoration: none;
+    background-color:whitesmoke;
+  }
+
+
+
+
+  .welcome{
+    display: flex;
+    margin: 5px;
+}
+
+.message {
+    background-color: whitesmoke;
+    font-size: 22px;
+    padding: 0px;
+    text-align:center;
+    
+
+}
+
+
+
+
+
+  .navbar {
+    width: 1700;
+    background-color: #90D5FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background: whitesmoke;
+    margin: 0;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    
+  }
+  th, td {
+    padding: 12px;
+    text-align: center;
+  }
+  th {
+    background-color: #4a69bd;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:hover {
+    background-color: #e6f7ff;
+  }
+  td {
+    font-size: 14px;
+    color: #333;
+  }
+  .status-upcoming {
+    color: #1e8449;
+    font-weight: bold;
+  }
+  .status-live {
+    color: #c0392b;
+    font-weight: bold;
+  }
+  .status-final {
+    color: #2d62a8;
+    font-weight: bold;
+  }
+
+
+
